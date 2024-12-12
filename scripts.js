@@ -264,43 +264,40 @@ document.addEventListener('DOMContentLoaded', () => {
 // Datos de las galerías
 const galleryData = {
     cabanas: [
-        { src: "img/hike-7486771_1280.jpg", title: "Vista Exterior de las Cabañas", description: "Espaciosa y acogedora" },
-        { src: "img/hike-7486771_1280.jpg", title: "Interior", description: "Diseño moderno y confortable" },
-        { src: "img/hike-7486771_1280.jpg", title: "Baños", description: "Naturaleza en estado puro" }
+        { src: "./img/hike-7486771_1280.jpg", title: "Vista Exterior de las Cabañas", description: "Espaciosa y acogedora" },
+        { src: "./img/hike-7486771_1280.jpg", title: "Interior", description: "Diseño moderno y confortable" },
+        { src: "./img/hike-7486771_1280.jpg", title: "Baños", description: "Naturaleza en estado puro" }
     ],
     piletas: [
-        { src: "img/pileta1.jpeg", title: "Complejo de Piscinas al Aire Libre", description: "Diversión y relax para todos." },
-        { src: "img/areaRelax.jpeg", title: "Área de Relax", description: "Descanso junto a la piscina" },
-        { src: "img/piletaJuegos.jpeg", title: "Piscina Infantil", description: "Especial para los más pequeños" },
-        { src: "img/piletatobogan.jpeg", title: "Piscina con Tobogán", description: "Diversión asegurada para los más grandes." }
+        { src: "./img/pileta1.jpeg", title: "Complejo de Piscinas al Aire Libre", description: "Diversión y relax para todos." },
+        { src: "./img/areaRelax.jpeg", title: "Área de Relax", description: "Descanso junto a la piscina" },
+        { src: "./img/piletaJuegos.jpeg", title: "Piscina Infantil", description: "Especial para los más pequeños" },
+        { src: "./img/piletatobogan.jpeg", title: "Piscina con Tobogán", description: "Diversión asegurada para los más grandes." }
     ],
     aereo: [
-        { src: "img/tirolesas.jpg", title: "Tirolesa Principal", description: "Adrenalina pura" },
-        { src: "img/senderoParque.jpeg", title: "Circuito Aventura", description: "Emocionantes desafíos de cuerda y plataformas entre los árboles." },
-        { src: "img/vistaParqueAereo.jpeg", title: "Vista Panorámica", description: "Una experiencia única" },
-        { src: "img/juegosParqueAereo.jpeg", title: "Juegos en el Camping", description: "Diversión al aire libre con estructuras de madera para los niños." }
+        { src: "./img/tirolesas.jpg", title: "Tirolesa Principal", description: "Adrenalina pura" },
+        { src: "./img/senderoParque.jpeg", title: "Circuito Aventura", description: "Emocionantes desafíos de cuerda y plataformas entre los árboles." },
+        { src: "./img/vistaParqueAereo.jpeg", title: "Vista Panorámica", description: "Una experiencia única" },
+        { src: "./img/juegosParqueAereo.jpeg", title: "Juegos en el Camping", description: "Diversión al aire libre con estructuras de madera para los niños." }
     ],
     camping: [
-        { src: "img/camping.jpg", title: "Área de Carpas", description: "Espacio ideal para instalar tu carpa cómodamente." },
-        { src: "img/zonaParrilla.jpg", title: "Área de parrillas", description: "Parrilladas inolvidables en plena naturaleza." },
-        { src: "img/zonaPicnic.jpg", title: "Zona de Picnic", description: "Perfecto para disfrutar de comidas en el exterior." },
-        
+        { src: "./img/camping.jpg", title: "Área de Carpas", description: "Espacio ideal para instalar tu carpa cómodamente." },
+        { src: "./img/zonaParrilla.jpg", title: "Área de parrillas", description: "Parrilladas inolvidables en plena naturaleza." },
+        { src: "./img/zonaPicnic.jpg", title: "Zona de Picnic", description: "Perfecto para disfrutar de comidas en el exterior." }
     ],
     motorhomes: [
-        { src: "img/exampleMotorhome.jpg", title: "Espacio Premium", description: "Máximo confort para tu motorhome." },
-        { src: "img/exampleMotorhome.jpg", title: "Zona de Relajo", description: "Tranquilidad y comodidad en plena naturaleza." },
-        { src: "img/zonaParrilla.jpg", title: "Área de parrillas", description: "Parrilladas inolvidables en plena naturaleza." },
-        { src: "img/exampleMotorhome.jpg", title: "Área de Descanso", description: "Espacios amplios y seguros para tu motorhome." }
+        { src: "./img/exampleMotorhome.jpg", title: "Espacio Premium", description: "Máximo confort para tu motorhome." },
+        { src: "./img/exampleMotorhome.jpg", title: "Zona de Relajo", description: "Tranquilidad y comodidad en plena naturaleza." },
+        { src: "./img/zonaParrilla.jpg", title: "Área de parrillas", description: "Parrilladas inolvidables en plena naturaleza." },
+        { src: "./img/exampleMotorhome.jpg", title: "Área de Descanso", description: "Espacios amplios y seguros para tu motorhome." }
     ],
     salones: [
-        { src: "img/exampleSalones.jpg", title: "Salón Principal", description: "Elegancia y versatilidad para tus celebraciones." },
-        { src:"img/exampleSalones.jpg", title: "Salón de Reuniones", description: "Espacio ideal para encuentros y conferencias." },
-        { src:"img/exampleSalones.jpg", title: "Salón de Banquetes", description: "Perfecto para cenas y eventos especiales." },
-        { src: "img/exampleSalones.jpg", title: "Salón de Fiestas", description: "Diversión asegurada para cualquier ocasión." }
+        { src: "./img/exampleSalones.jpg", title: "Salón Principal", description: "Elegancia y versatilidad para tus celebraciones." },
+        { src: "./img/exampleSalones.jpg", title: "Salón de Reuniones", description: "Espacio ideal para encuentros y conferencias." },
+        { src: "./img/exampleSalones.jpg", title: "Salón de Banquetes", description: "Perfecto para cenas y eventos especiales." },
+        { src: "./img/exampleSalones.jpg", title: "Salón de Fiestas", description: "Diversión asegurada para cualquier ocasión." }
     ]
-    
 };
-
 function openGallery(type) {
     const modal = document.getElementById('galleryModal');
     const carousel = document.querySelector('#galleryCarousel .carousel-inner');
